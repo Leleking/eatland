@@ -23,10 +23,54 @@
                 <div class="pt-10" align="center">
                     <div class="h-full flex flex-col justify-between flex-grow">
                         <div class="pt-5"> 
-                            <div class="font-bold text-2xl"><span class="text-primary">Fund</span>batch</div>
+                            <div class="app-logo">
+                                <div class="font-bold text-2xl"><span class="text-primary">Fund</span>batch</div>
+                            </div>
+                            <div class="profile-img pt-10">
+                                <img src="@/assets/profile1.jpg" style="height: 90px; width: 90px; " class="rounded-full" alt="">
+                            </div>
+                            <div class="user-name pt-5">
+                                <h3 class="text-sm font-light text-gray-500">Welcome back,</h3>
+                                <div class="text-primary pt-1">Simeone Nortey</div>
+                            </div>
+                            <div class="monthly-budget pt-10">
+                                <div class="font-bold text-3xl">$4,300</div>
+                                <div class="text-gray-500">Monthly budget</div>
+                            </div>
+                            <div class="pt-10">
+                                <ul class="nav-items px-20">
+                                    <li>
+                                        <a class="flex py-5">
+                                        <span class="mdi mdi-chart-multiple pr-4"></span>
+                                        <p class="float-left">Dashboard </p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="flex py-5 text-gray-500">
+                                        <span class="mdi mdi-chart-multiple pr-4"></span>
+                                        <p class="float-left">Investments </p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="flex py-5 text-gray-500">
+                                        <span class="mdi mdi-chart-multiple pr-4"></span>
+                                        <p class="float-left">Transactions </p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="flex py-5 text-gray-500">
+                                        <span class="mdi mdi-chart-multiple pr-4"></span>
+                                        <p class="float-left ">Wallets </p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                        <div>  1</div>
-                        <div>  1</div>
+                        <div>
+                            <div class="abosolute bottom-5">
+                                logout
+                            </div>
+                        </div>
                     </div>
                     
                 </div>
