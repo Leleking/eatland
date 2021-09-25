@@ -2,6 +2,7 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    
     extend: {
       colors: {
         primary: "#215287",
@@ -10,7 +11,10 @@ module.exports = {
           200: "#888883",
         },
         grey: "#FAFAFA"
-      }
+      },
+      inset: {
+        '1/5': '20%'
+       },
     },
   },
   variants: {
